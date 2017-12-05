@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AngularApp\" Type="ElementManifest" />
+    <ProjectItemFile Source="Sample.txt" Target="AngularApp\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\favicon.ico" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\index.html" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\inline.bundle.js" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\inline.bundle.js.map" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\main.bundle.js" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\main.bundle.js.map" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\polyfills.bundle.js" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\polyfills.bundle.js.map" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\styles.bundle.js" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\styles.bundle.js.map" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\vendor.bundle.js" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\dist\vendor.bundle.js.map" Target="AngularApp\SharePoint-Angular4\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\e2e\app.e2e-spec.ts" Target="AngularApp\SharePoint-Angular4\e2e\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\e2e\app.po.ts" Target="AngularApp\SharePoint-Angular4\e2e\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\e2e\tsconfig.e2e.json" Target="AngularApp\SharePoint-Angular4\e2e\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\favicon.ico" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\index.html" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\main.ts" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\polyfills.ts" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\styles.css" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\test.ts" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\tsconfig.app.json" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\tsconfig.spec.json" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\typings.d.ts" Target="AngularApp\SharePoint-Angular4\src\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\app\app.component.css" Target="AngularApp\SharePoint-Angular4\src\app\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\app\app.component.html" Target="AngularApp\SharePoint-Angular4\src\app\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\app\app.component.spec.ts" Target="AngularApp\SharePoint-Angular4\src\app\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\app\app.component.ts" Target="AngularApp\SharePoint-Angular4\src\app\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\app\app.module.ts" Target="AngularApp\SharePoint-Angular4\src\app\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\assets\.gitkeep" Target="AngularApp\SharePoint-Angular4\src\assets\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\environments\environment.prod.ts" Target="AngularApp\SharePoint-Angular4\src\environments\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\src\environments\environment.ts" Target="AngularApp\SharePoint-Angular4\src\environments\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\.angular-cli.json" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\.editorconfig" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\.gitignore" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\karma.conf.js" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\package.json" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\protractor.conf.js" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\README.md" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\tsconfig.json" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+    <ProjectItemFile Source="SharePoint-Angular4\tslint.json" Target="AngularApp\SharePoint-Angular4\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

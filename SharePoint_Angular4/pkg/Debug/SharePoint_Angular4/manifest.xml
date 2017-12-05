@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="fc519b0d-ca79-40a4-b5f5-09a940f2b02f" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="SharePoint_Angular4.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SharePoint_Angular4\AngularApp.aspx" />
+    <TemplateFile Location="Layouts\SharePoint_Angular4\MyCustomWebService.asmx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SharePoint_Angular4_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

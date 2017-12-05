@@ -1,0 +1,1 @@
+﻿<%@ WebService Class="WebServiceDemo.MyCustomWebService, SharePoint_Angular4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=760816e5037e055c" %>

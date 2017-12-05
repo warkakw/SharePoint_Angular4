@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="AngularApp">
+
+    <File Path="AngularApp\SharePoint-Angular4\dist\favicon.ico" Url="AngularApp/SharePoint-Angular4/dist/favicon.ico" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\index.html" Url="AngularApp/SharePoint-Angular4/dist/index.html" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\inline.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/inline.bundle.js" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\inline.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/inline.bundle.js.map" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\main.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/main.bundle.js" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\main.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/main.bundle.js.map" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/polyfills.bundle.js" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/polyfills.bundle.js.map" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\styles.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/styles.bundle.js" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\styles.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/styles.bundle.js.map" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/vendor.bundle.js" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/vendor.bundle.js.map" />
+
+  </Module>
+</Elements>

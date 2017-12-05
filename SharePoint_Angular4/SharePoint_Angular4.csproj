@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1255E65-8369-42C3-BF38-5CD3467E081B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharePoint_Angular4</RootNamespace>
+    <AssemblyName>SharePoint_Angular4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.5</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\SharePoint_Angular4\AngularApp.aspx.cs">
+      <DependentUpon>AngularApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SharePoint_Angular4\AngularApp.aspx.designer.cs">
+      <DependentUpon>AngularApp.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SharePoint_Angular4\MyCustomWebService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AngularApp\SharePoint-Angular4\.angular-cli.json" />
+    <None Include="AngularApp\SharePoint-Angular4\.editorconfig" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\inline.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\main.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\styles.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\e2e\tsconfig.e2e.json" />
+    <None Include="AngularApp\SharePoint-Angular4\package.json" />
+    <None Include="AngularApp\SharePoint-Angular4\README.md" />
+    <None Include="AngularApp\SharePoint-Angular4\src\assets\.gitkeep" />
+    <None Include="AngularApp\SharePoint-Angular4\src\tsconfig.app.json" />
+    <None Include="AngularApp\SharePoint-Angular4\src\tsconfig.spec.json" />
+    <None Include="AngularApp\SharePoint-Angular4\tsconfig.json" />
+    <None Include="AngularApp\SharePoint-Angular4\tslint.json" />
+    <None Include="AngularApp\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7b768dd2-de97-4e54-a135-79f424a12254}</SharePointProjectItemId>
+    </None>
+    <None Include="app.config" />
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{c257a09c-0493-4f94-9ca4-cc173a5ad9ef}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c97dd747-4936-4449-8f1a-d2458e1bc253}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{fc519b0d-ca79-40a4-b5f5-09a940f2b02f}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\e2e\app.po.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.component.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.module.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\environments\environment.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\main.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\polyfills.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\test.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AngularApp\Elements.xml" />
+    <Content Include="AngularApp\Sample.txt" />
+    <Content Include="AngularApp\SharePoint-Angular4\.gitignore" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\favicon.ico" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\index.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\inline.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\main.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\styles.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\karma.conf.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\protractor.conf.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\app\app.component.css" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\app\app.component.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\favicon.ico" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\index.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\styles.css" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SharePoint_Angular4\AngularApp.aspx" />
+    <Content Include="Layouts\SharePoint_Angular4\MyCustomWebService.asmx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
